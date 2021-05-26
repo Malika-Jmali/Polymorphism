@@ -46,7 +46,6 @@ public class TollCalculator {
 
             int distance = (int) (Math.random() * (240 - 10 + 1) + 10);
 
-
             System.out.printf("%-20s %-20s %-6s %n",vehicleOutput,distance,currency.format(vehicle.calculateToll(distance)));
 
         }
